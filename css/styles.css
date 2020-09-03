@@ -205,13 +205,32 @@ p {
 .advantage-item::before {
   display: block;
   content: '';
+  width: 270px;
   height: 120px;
-  outline: 1px solid saddlebrown;
-  background-image: url(../img/antenna.png);
+  margin-bottom: 30px;
+
   background-size: contain;
+  background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--secondary-background-color);
+  border-radius: 4px;
+}
+
+.advantage-item:nth-child(1)::before {
+  background-image: url(../img/antenna.png);
+}
+
+.advantage-item:nth-child(2)::before {
+  background-image: url(../img/clock.png);
+}
+
+.advantage-item:nth-child(3)::before {
+  background-image: url(../img/diagram.png);
+}
+
+.advantage-item:nth-child(4)::before {
+  background-image: url(../img/astronaut.png);
 }
 
 .section-title {

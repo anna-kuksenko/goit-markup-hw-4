@@ -352,6 +352,77 @@ img {
   line-height: 1.7;
 }
 
+/* clients */
+
+.section-clients {
+  padding-top: 94px;
+}
+
+.section-heading {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.client-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 94px;
+}
+.company-item {
+  margin-right: 30px;
+}
+.company-item:last-child {
+  margin-right: 0;
+}
+.company-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  fill: #afb1b8;
+}
+.company-link.client-icon:hover {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+.client1 {
+  width: 44px;
+  height: 49px;
+}
+.client2 {
+  width: 40px;
+  height: 52px;
+}
+.client3 {
+  width: 41px;
+  height: 42px;
+}
+.client4 {
+  width: 80px;
+  height: 42px;
+}
+.client5 {
+  width: 59px;
+  height: 47px;
+}
+.client6 {
+  width: 88px;
+  height: 45px;
+}
+
 /* icon */
 
 .social-icon-list {
@@ -359,8 +430,8 @@ img {
   justify-content: center;
   align-items: center;
   /* margin-right: 32px;
-    margin-left: 32px;
-    margin-bottom: 30px; */
+  margin-left: 32px; */
+  margin-bottom: 30px;
 }
 .social-icon-item:not(:last-child) {
   margin-right: 10px;
@@ -376,9 +447,10 @@ img {
 .team-icon {
   fill: #afb1b8;
 }
+
 .social-icon-link:hover .team-icon,
 .social-icon-link:focus .team-icon {
-  fill: var(--accent-color);
+  fill: var(--white-color);
 }
 
 .social-icon {

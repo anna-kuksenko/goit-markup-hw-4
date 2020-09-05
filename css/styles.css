@@ -111,7 +111,19 @@ p {
   margin-left: 50px;
 }
 
+.connect-icon:hover,
+.connect-icon:focus {
+  fill: var(--accent-color);
+}
+
 .envelope {
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+  fill: var(--secondary-text-color);
+}
+
+.mobile {
   margin-right: 10px;
   width: 16px;
   height: 12px;

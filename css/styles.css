@@ -498,7 +498,7 @@ button {
 }
 
 .footer {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -538,6 +538,34 @@ address {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+}
+
+.block {
+  margin-right: 70px;
+}
+
+.block:last-child {
+  margin-right: 0;
+}
+
+.social {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  width: 145px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.footer-icon {
+  fill: var(--white-color);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* css portfolio */
@@ -622,6 +650,12 @@ address {
   height: 404px;
   border: 1px solid #eeeeee;
   background-color: #ffffff;
+}
+
+.flex-element:hover,
+.flex-element:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .flex-element:nth-child(3n) {

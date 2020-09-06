@@ -188,8 +188,6 @@ p {
 
 .hero-baner {
   display: block;
-  padding-top: 200px;
-  padding-bottom: 200px;
   text-align: center;
 }
 
@@ -368,6 +366,7 @@ img {
 
 .section-clients {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .section-heading {
@@ -387,7 +386,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 94px;
 }
 .company-item {
   margin-right: 30px;
@@ -562,8 +560,7 @@ address {
 
 .social {
   margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   width: 145px;
   font-family: Roboto;
   font-style: normal;
